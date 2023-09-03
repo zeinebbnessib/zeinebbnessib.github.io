@@ -1,0 +1,17 @@
+/* Personnalisation des flèches du carrousel */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: blue; /* Couleur bleue pour les flèches */
+    font-size: 30px; /* Taille de la police des flèches */
+}
+
+/* Augmentation de la taille des images du carrousel */
+.carousel-inner .carousel-item img {
+    max-width: 80%; /* Largeur maximale des images */
+    height: auto; /* Ajustement automatique de la hauteur */
+}
+
+/* Augmentation de la taille des descriptions du carrousel */
+.carousel-inner .carousel-item p {
+    font-size: 20px; /* Taille de police pour les descriptions */
+}
